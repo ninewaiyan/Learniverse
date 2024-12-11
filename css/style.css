@@ -1,0 +1,76 @@
+body {
+    background-image: url('../images/bg5.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #212529;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand, .nav-link {
+    color: black !important;
+}
+
+.hero-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    color: black;
+}
+
+.carousel-item img {
+    border-radius: 15px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(255, 0, 8, 0.8);
+}
+
+.game-card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(255, 0, 8, 0.8);
+}
+
+.offcanvas-header {
+    justify-content: flex-start;
+}
+
+.btn-close {
+    margin-left: auto;
+}
+
+.menu-buttons {
+    margin-top: auto;
+}
+
+
+
+
